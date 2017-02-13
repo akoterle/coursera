@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "_runner": "",
+    "tasks": [
+        {
+            "showOutput": "always",
+            "isBuildCommand": true,
+            "taskName": "C++ Build",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-pipe",
+                "-O2",
+                "-std=c++11",
+                "max_pairwise_product.cpp",
+                "-omain"
+            ]
+        }
+    ]
+}
